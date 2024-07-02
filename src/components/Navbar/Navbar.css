@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.nav-button {
+  border: none;
+  margin: 4px;
+  position: absolute;
+  position: fixed;
+}
+
+.nav-button__menu {
+  font-size: 1.5rem;
+  background-color: rgb(99, 98, 98);
+  border: 0.5px solid white;
+  color: white;
+  opacity: 1;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+  right: 15px;
+}
+
+.nav-button__menu:hover {
+  color: rgb(99, 98, 98);
+  background-color: white;
+  border-radius: 5px;
+  transition-duration: 0.7s;
+}
+
+.dropdown-menu {
+  width: 10rem;
+  border: 1px, solid white;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  position: fixed;
+  top: 80px;
+  right: 30px;
+}
+
+.dropdown-menu.active {
+  visibility: visible;
+  opacity: 1;
+  transition-duration: 0.7s;
+}
+
+.dropdown-menu.inactive {
+  visibility: hidden;
+}
+
+.list-item {
+  list-style: none;
+  padding: 7px;
+  text-align: center;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-item a:hover {
+  color: rgb(99, 98, 98);
+}
